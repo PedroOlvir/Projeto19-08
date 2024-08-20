@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+.cabeçalho{
+    background-color:  #404040;
+    color: white;
+    padding: 10px;
+}
+.back{
+    height: 285px;
+    padding-top: 20%;
+    text-shadow: 1px 1px 5px black;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    
+}
+.text{
+    padding-top: 50%;
+    background-color: #e6e6e6;
+    padding: 90px;
+    height: 110px;
+    color: rgb(64, 62, 62);
+}
+h1 ~ p{
+    margin: 50px;
+    font-size: 21px;
+}
+#img2 , #img3{
+    padding-top: 10%;
+}
+#img1{
+    background-image: url("../img/c1.jpg");
+}
+#img2{
+    background-image: url("../img/c2.jpg");
+}
+#img3{
+    background-image: url("../img/c3.jpg");
+}
